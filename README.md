@@ -1,0 +1,1 @@
+# GT-Item-Info-Discord-Bot
