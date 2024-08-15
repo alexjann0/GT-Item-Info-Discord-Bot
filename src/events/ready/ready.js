@@ -12,7 +12,7 @@ module.exports = (client) => {
         });
 
         client.commands = new Collection();
-        const commandsPath = path.join(__dirname, '..', '..', 'Commands');
+        const commandsPath = path.join(__dirname, '..', '..', 'commands');
         console.log(commandsPath)
         const CommandFiles = readdirSync(commandsPath).filter(file => file.endsWith(".js"));
 

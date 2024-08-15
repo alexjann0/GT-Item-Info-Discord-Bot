@@ -1,5 +1,5 @@
 const { Client, IntentsBitField } = require('discord.js');
-const ready = require('./Events/Ready/ready');
+const ready = require('./events/ready/ready');
 require('dotenv').config();
 
 const client = new Client({
